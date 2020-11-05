@@ -10,7 +10,10 @@
       name="keywords"
       content="Administración, Abogado, Contador, Administración de consorcios, Asesorías Contables, Asesorías Jurídicas, Asesoramiento"
     />
-    <meta name="description" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis sequi unde libero tempore doloribus iure impedit! Perspiciatis quo aperiam natus, officiis at beatae, cum, pariatur ipsa necessitatibus alias corporis laboriosam.">
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis sequi unde libero tempore doloribus iure impedit! Perspiciatis quo aperiam natus, officiis at beatae, cum, pariatur ipsa necessitatibus alias corporis laboriosam."
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -26,6 +29,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Estudio Monti</title>
   </head>
   <body id="portada">
@@ -48,18 +55,23 @@
             <a class="nav-link active" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/quienessomos.html">Quienes Somos</a>
+            <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/servicios.html">Servicios</a>
+            <a class="nav-link" href="#servicios">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
     </nav>
-    <section>
+    <div class="btn-whatsapp">
+      <a href="https://api.whatsapp.com/send?phone=5491150139841" target="_blank">
+      <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="whatsapp" class="botonWpp">
+      </a>
+    </div>
+    <section id="home">
       <div
         id="carouselExampleIndicators"
         class="carousel slide carousel-fade"
@@ -78,9 +90,13 @@
           <div class="carousel-item active" data-interval="9000">
             <img
               class="d-block w-100"
-              src="imagenes/imagen1.png"
+              src="imagenes/imagen2.jpg"
               alt="First slide"
-            />
+            >
+            <div class="carousel-caption">
+              <h1>ASESORÍAS CONTABLES</h1>
+            </div>
+          </img>
           </div>
           <div class="carousel-item" data-interval="9000">
             <img
@@ -88,13 +104,19 @@
               src="imagenes/imagen1.png"
               alt="Second slide"
             />
+            <div class="carousel-caption">
+              <h1>ASESORÍAS JURÍDICAS</h1>
+            </div>
           </div>
           <div class="carousel-item" data-interval="9000">
             <img
               class="d-block w-100"
-              src="imagenes/imagen1.png"
+              src="imagenes/imagen3.jpg"
               alt="Third slide"
             />
+            <div class="carousel-caption adm">
+              <h1>ADMINISTRACIÓN DE CONSORCIOS</h1>
+            </div>
           </div>
         </div>
         <a
@@ -116,11 +138,14 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="container-fluid">
+      <section id="quienesSomos">
+      <div class="container-fluid ">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <div class="texto">
-              <h2>¿Por qué elegirnos?</h2>
+              <h2 class="featurette-heading">
+                Sobre nosotros<span class="text-muted"></span>
+              </h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
                 praesentium deserunt hic, et architecto ducimus ex, velit
@@ -129,11 +154,132 @@
                 consectetur adipisicing elit. Molestiae sed, dolorum, nostrum
                 fugiat odio labore maiores, iste reprehenderit recusandae rem
                 voluptate quibusdam impedit iusto suscipit totam atque
-                distinctio magni provident.
+                distinctio magni provident.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                praesentium deserunt hic, et architecto ducimus ex, velit
+                suscipit dolorum voluptatibus amet odit ab esse molestias cumque
+                consequuntur beatae eos totam? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.
               </p>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section id="servicios">
+      <h2 class="featurette-heading" class="tituloServicios">Nuestros Servicios</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <img
+            class="bd-placeholder-img rounded-circle"
+            src="imagenes/juridico.jpg"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: 140x140"
+          >
+        </img>
+          <h2 class="descripcionServicio">Área Jurídica</h2>
+          <p>
+            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo
+            risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+            cursus magna.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img
+            class="bd-placeholder-img rounded-circle"
+            src="imagenes/consorcios.jpg"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: 140x140"
+          >
+        </img>
+          <h2 class="descripcionServicio">Administración de consorcios</h2>
+          <p>
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+            eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
+            amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
+            mauris condimentum nibh.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img
+            src="imagenes/contable.jpg"
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: 140x140"
+          >
+        </img>
+          <h2 class="descripcionServicio">Área Contable</h2>
+          <p>
+            Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
+            egestas eget quam. Vestibulum id ligula porta felis euismod semper.
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+            nibh, ut fermentum massa justo sit amet risus.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <div class="form">
+        <h2 class="contactoTitulo">Contáctenos</h2>
+        <form action="../php/action.php" method="POST">
+          <input
+            type="text"
+            name="nombre"
+            placeholder="Nombre completo"
+            required
+            autocomplete="off"
+          />
+          <input
+            type="tel"
+            name="telefono"
+            placeholder="Teléfono"
+            required
+            autocomplete="off"
+          />
+          <br />
+          <br />
+          <input
+            type="email"
+            name="mail"
+            placeholder="Mail"
+            required
+            autocomplete="off"
+          />
+          <br />
+          <br />
+          <select name="servicios">
+            <option value="Jurídico">Área Jurídica</option>
+            <option value="Contable">Área Contable</option>
+            <option value="Administración">Administración de Consorcios</option>
+            <br />
+          </select>
+          <br />
+          <br />
+          <textarea
+            name="descripcion"
+            cols="30"
+            rows="6"
+            placeholder="Cuéntenos sobre su consulta"
+          ></textarea>
+          <br />
+          <br />
+          <input type="submit" value="Enviar" />
+        </form>
       </div>
     </section>
 
